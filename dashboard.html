@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Toko Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Toko Buku Online</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h1 id="greetingText">Selamat datang!</h1>
+            <p>Silakan pilih menu di bawah untuk mengelola aplikasi.</p>
+        </div>
+
+        <div class="grid-menu">
+            <a href="stok.html" class="menu-card">Informasi Stok/Katalog</a>
+            <a href="tracking.html" class="menu-card">Tracking Pengiriman</a>
+            <a href="checkout.html" class="menu-card">Laporan Pemesanan</a>
+            <a href="#" class="menu-card" onclick="alert('Fitur History Transaksi sedang dalam pengembangan')">History Transaksi</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tugas UTS Pemrograman Web</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

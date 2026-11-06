@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Katalog Stok - Toko Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Toko Buku Online</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Katalog & Stok Buku</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cover</th>
+                        <th>Kode</th>
+                        <th>Nama Buku</th>
+                        <th>Jenis</th>
+                        <th>Edisi</th>
+                        <th>Stok</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody id="katalogTableBody"></tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h3>Tambah Stok Buku Baru</h3>
+            <form id="formTambahStok">
+                <div class="form-group"><label>Kode Buku</label><input type="text" id="kode" required></div>
+                <div class="form-group"><label>Nama Buku</label><input type="text" id="nama" required></div>
+                <div class="form-group"><label>Jenis Barang</label><input type="text" id="jenis" value="Buku Ajar" required></div>
+                <div class="form-group"><label>Edisi</label><input type="text" id="edisi" required></div>
+                <div class="form-group"><label>Jumlah Stok</label><input type="number" id="stok" required></div>
+                <div class="form-group"><label>Harga (Rp)</label><input type="number" id="harga" required></div>
+                <div class="form-group"><label>Nama File Cover (Contoh: foto.jpg)</label><input type="text" id="cover" placeholder="kepemimpinan.jpg" required></div>
+                <button type="submit" class="btn">Tambah Stok</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

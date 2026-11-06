@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemesanan - Toko Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Toko Buku Online</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Formulir Pemesanan Buku</h2>
+            <form id="formCheckout">
+                <div class="form-group">
+                    <label>Nama Pemesan</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Pilih Buku</label>
+                    <select required>
+                        <option value="">-- Pilih Buku --</option>
+                        <option>Pengantar Ilmu Komunikasi</option>
+                        <option>Manajemen Keuangan</option>
+                        <option>Kepemimpinan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Jumlah</label>
+                    <input type="number" min="1" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label>Metode Pembayaran</label>
+                    <select required>
+                        <option>Transfer Bank</option>
+                        <option>E-Wallet</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Proses Pesanan</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracking Pengiriman - Toko Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Toko Buku Online</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Lacak Pengiriman</h2>
+            <p>Contoh Nomor DO: <strong>20230012</strong> atau <strong>20230013</strong></p>
+            <br>
+            <div class="form-group" style="display: flex; gap: 10px;">
+                <input type="text" id="inputDO" placeholder="Masukkan Nomor Delivery Order">
+                <button id="btnCariDO" class="btn">Cari</button>
+            </div>
+        </div>
+
+        <div id="trackingResult" class="card"></div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
