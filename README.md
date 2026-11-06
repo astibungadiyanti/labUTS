@@ -9,3 +9,5 @@ Struktur HTML Semantik & Valid: Menggunakan elemen HTML5 semantik (header, nav, 
 
 ## Analisis Kendala Teknis & Akar Masalah 
 (Root Cause)Selama proses pengembangan aplikasi web ini, dilakukan analisis dan penyelesaian masalah teknis (debugging) terkait gagalnya render gambar cover buku pada halaman katalog (stok.html):Ketidakcocokan Ekstensi File (.jpeg vs .jpg):Akar Masalah: Jalur path data awal pada objek dataKatalogBuku mencantumkan img/paud_perkembangan.jpeg, sedangkan file asli di direktori fisik berformat .jpg.Solusi: Menyelaraskan seluruh format penulisan ekstensi pada file js/data.js menjadi .jpg.Pencegahan Double Extension Akibat Fitur Windows:Akar Masalah: Fitur default Windows Hidden File Extensions dapat menyebabkan nama file berubah secara tidak sengaja menjadi paud_perkembangan.jpg.jpg.Solusi: Memastikan opsi File name extensions diaktifkan pada Explorer dan melakukan verifikasi penamaan jalur file secara tepat.
+## link youTube
+https://youtu.be/rprFEAPg3eE?si=hvI1Mm4la4Bu87Hs
