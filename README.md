@@ -15,12 +15,12 @@ Struktur HTML Semantik & Valid: Menggunakan elemen HTML5 semantik (header, nav, 
 ├── js/
 │   ├── data.js         # Konfigurasi Data JSON (Pengguna, Katalog Buku, Tracking)
 │   └── script.js       # Logika Operasional, Event Listener, & Manipulasi DOM
-└── img/                # Direktori Asset Gambar Cover Buku (Lokal)
-    ├── kepemimpinan.jpg
-    ├── manajemen_keuangan.jpg
-    ├── mikrobiologi.jpg
-    ├── paud_perkembangan.jpg
-    └── pengantar_komunikasi.jpg
+ img                # Direktori Asset Gambar Cover Buku (Lokal)
+     kepemimpinan.jpg
+     manajemen_keuangan.jpg
+     mikrobiologi.jpg
+     paud_perkembangan.jpg
+     pengantar_komunikasi.jpg
 
 ## Data Uji Coba System (Credentials & DO)
 1. Data Akun Pengguna (dataPengguna)Gunakan akun berikut untuk menguji fitur otentikasi login:NoEmail, Password Role1rina@gmail.com rina123U. Nomor Delivery Order (dataTracking)Gunakan nomor DO berikut pada halaman tracking.html:20230012: Status Dalam Perjalanan (Ekspedisi JNE)20230013: Status Selesai (Ekspedisi Pos Indonesia)
